@@ -12,9 +12,9 @@ export function Hero() {
                     <p>Tenho 28 anos sou desenvolvedor frontend com 1 ano de <br /> experiência trabalhando como freelancer</p>
                     <div className={styles.content_links}>
 
-                        <a href=""><LinkedinLogo size={32} /></a>
-                        <a href=""><GithubLogo size={32} /></a>
-                        <a href=""><FileText size={32} /></a>
+                        <a href=""><LinkedinLogo size={68} /></a>
+                        <a href=""><GithubLogo size={68} /></a>
+                        <a href=""><FileText size={68} /></a>
 
                     </div>
                 </div>

@@ -1,3 +1,17 @@
+
+:root {
+    --primary-color : #264653;
+    --secondary-color : #2a9d8f;
+    --quaternary-color: #e9c46a;
+    --quintennary-color: #f4a261;
+    --sextary-color: #e76f51;
+    --white-color: #fff;
+    --gray-color-100: #e9ecef;
+    --gray-color-200: #adb5bd;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;

@@ -4,13 +4,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../../assets/blurry-gradient-haikei.svg);
 }
 
 .hero_content h2 {
     font-size: 14rem;
     font-weight: 700;
+    color: var(--gray-color-100);
+    line-height: 11rem;
+
 }
 
 .hero_content p {
     font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--white-color);
 }
+
+.content_links {
+    display: flex;
+    gap: 2rem;
+    color: var(--gray-color-100);
+}
+.content_links svg {
+    color: var(--gray-color-100);
+    background-color: var(--primary-color);
+    padding: 4px;
+    border-radius: 6px;
+}
+
