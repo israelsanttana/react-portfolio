@@ -4,7 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../../assets/blurry-gradient-haikei.svg);
+    background-image: url(../../assets/blurry-gradient-haikei-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero_content h2 {
@@ -23,13 +25,15 @@
 
 .content_links {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     color: var(--gray-color-100);
 }
 .content_links svg {
     color: var(--gray-color-100);
-    background-color: var(--primary-color);
-    padding: 4px;
-    border-radius: 6px;
+}
+
+.content_links svg:hover {
+    color: var(--quintennary-color);
+    transition: 0.3s;
 }
 
