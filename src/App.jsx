@@ -1,3 +1,4 @@
+import { Hero } from "./components/hero/Hero";
 
 
 export function App() {
@@ -5,9 +6,8 @@ export function App() {
 
   return (
     <>
-      <h1>
-        olá mundo
-      </h1>
+      <Hero />
+
     </>
   )
 }
