@@ -13,8 +13,6 @@ export function Navbar() {
                         </ul>
                     </nav>
                 </div>
-
-
             </div>
         </section>
     )
