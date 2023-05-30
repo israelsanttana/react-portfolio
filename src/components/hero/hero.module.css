@@ -38,3 +38,36 @@
     transition: 0.3s;
 }
 
+
+@media (max-width: 1194px) {
+    html {
+        font-size: 80%;
+    }
+
+
+}
+
+@media (max-width: 970px) {
+    html {
+        font-size: 60%;
+    }
+
+}
+
+@media (max-width: 720px) {
+    .hero_content h2 {
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+
+    .content_links svg {
+        width: 45px;
+    }
+
+    .hero_content p {
+        max-width: 70%;
+        width: max-content;
+        
+    }
+
+}
