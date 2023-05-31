@@ -11,15 +11,15 @@
 }
 
 .hero_content h2 {
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 700;
     color: var(--gray-color-100);
-    line-height: 8rem;
+    line-height: 6rem;
 
 }
 
 .hero_content p {
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-bottom: 2rem;
     color: var(--white-color);
 }
@@ -34,8 +34,11 @@
 }
 
 .content_links svg:hover {
-    color: var(--quintennary-color);
     transition: 0.3s;
+    border-radius: 10px;
+    color: var(--white-color);
+    background-color: hsla(0, 0%, 100%, 0.092);
+    padding: 4px;
 }
 
 
@@ -56,7 +59,7 @@
 
 @media (max-width: 720px) {
     .hero_content h2 {
-        font-size: 6.5rem;
+        font-size: 7.4rem;
         line-height: 6rem;
     }
 
@@ -65,7 +68,6 @@
     }
 
     .hero_content p {
-        max-width: 90%;
         width: max-content;
         
     }

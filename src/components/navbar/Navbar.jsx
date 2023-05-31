@@ -35,7 +35,7 @@ export function Navbar() {
                             <ul>
                                 <li>Home</li>
                                 <li>Projetos</li>
-                                <li>About</li>
+                                <li>Sobre</li>
                             </ul>
                         </nav>
                     </div>
