@@ -19,9 +19,10 @@
 }
 
 .hero_content p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
     color: var(--white-color);
+    font-family: var(--secondary-font);
 }
 
 .content_links {
