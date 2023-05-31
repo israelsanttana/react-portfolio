@@ -11,10 +11,10 @@
 }
 
 .hero_content h2 {
-    font-size: 14rem;
+    font-size: 10rem;
     font-weight: 700;
     color: var(--gray-color-100);
-    line-height: 11rem;
+    line-height: 8rem;
 
 }
 
