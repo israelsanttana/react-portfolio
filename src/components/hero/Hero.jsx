@@ -1,5 +1,5 @@
 import styles from "./hero.module.css"
-import { LinkedinLogo, GithubLogo, FileText } from "@phosphor-icons/react"
+import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa"
 
 export function Hero() {
     return (
@@ -12,9 +12,9 @@ export function Hero() {
                     <p>Tenho 28 anos sou desenvolvedor frontend com 1 ano de <br /> experiência trabalhando como freelancer</p>
                     <div className={styles.content_links}>
 
-                        <a href=""><LinkedinLogo size={45} /></a>
-                        <a href=""><GithubLogo size={45} /></a>
-                        <a href=""><FileText size={45} /></a>
+                        <a href=""><FaLinkedin size={46} /></a>
+                        <a href=""><FaGithub size={46} /></a>
+                        <a href=""><FaFileAlt size={45} /></a>
 
                     </div>
                 </div>
